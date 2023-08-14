@@ -1,24 +1,19 @@
 const router = require('express').Router();
-const { Post } = require('../../models')
+const { Post } = require('../../models');
+const withAuth = require('../../utils/auth');
 
 
 
+// router.get('/', async (req, res) => {
+//   const results = await Post.findAll().catch((err) => { res.json(err) });
+//   res.status(200).json({ results });
+// });
 
-router.get('/', async (req, res) => {
+
+
+router.post('/', withAuth, async (req, res) => {
   try {
-    const posts = await Post.findAll({
-    });
-    res.status(200).json(posts);
-  } catch (err) {
-    res.json(500).json(err);
-  } 
-});
-
-
-
-router.post('/', async (req, res) => {
-  try {
-    const newPost = await Project.create({
+    const newPost = await Post.create({
       ...req.body,
       user_id: req.session.user_id,
     });
@@ -29,9 +24,9 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', withAuth, async (req, res) => {
   try {
-    const postData = await Project.destroy({
+    const postData = await Post.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
