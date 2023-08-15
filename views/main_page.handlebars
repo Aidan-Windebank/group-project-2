@@ -1,31 +1,29 @@
 
-  <div class="col-md-6">
-    <h2>Sale Categories</h2>
-      {{#each categories as |category| }}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col 6">
+      <h2>Sale Categories</h2>
+        {{#each categories as |category| }}
           <p>
             <a href="/categories/{{category.id}}">{{category.category_title}}</a>          
           </p>
-      {{/each}}
+          <p>{{category.category_title}}</p>
+        {{/each}}    
+    </div>
+    <div class="col 6">
+      <div>
+        <h2>My Posts</h2>
+        {{#each posts as |post| }}
+            <h3>
+              <a href="/posts/{{post.id}}">{{post.title}}</a>
+            </h3>
+            <p>
+            {{post.description}}
+            </p>
+            <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+        {{/each}}
+      </div>    
+    </div>
   </div>
-
-
-
-
-
-
-<!-- Loop over each object in the projects array -->
-
-  <div class="col-md-6">
-    {{#each posts as |post| }}
-        <h2>
-          <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-          
-          <a href="/posts/{{post.id}}">{{post.title}}</a>
-        </h2>
-        <p>
-        {{post.description}}
-        </p>
-        <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
-    {{/each}}
-  </div>
-
+</div>

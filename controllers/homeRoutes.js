@@ -54,13 +54,30 @@ router.get('/main_page', withAuth, async (req, res) => {
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
       include: [{ model: Post}],
-      // include: [{ model: Category}],
     });
 
     const user = userData.get({ plain: true });
     console.log(user)
     res.render('main_page', {
       ...user,
+      logged_in: true,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/main_page', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const category = await Category.findAll({
+      include: [{ model: Category}],
+    });
+
+    // const user = userData.get({ plain: true });
+    // console.log(user)
+    res.render('main_page', {
+      ...category,
       logged_in: true,
     });
   } catch (err) {
