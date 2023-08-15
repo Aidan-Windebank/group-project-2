@@ -1,10 +1,10 @@
 
-
 <div class="container-fluid">
   <div class="row">
     <div class="col 6">
       <h2>Sale Categories</h2>
-        {{#each categories as |category| }}
+        {{#each categories  }}
+          
           <p>
             <a href="/categories/{{category.id}}">{{category.category_title}}</a>          
           </p>
@@ -13,7 +13,7 @@
     </div>
     <div class="col 6">
       <div>
-        <h2>My Posts</h2>
+        <h2>Posts:</h2>
         {{#each posts as |post| }}
             <h3>
               <a href="/posts/{{post.id}}">{{post.title}}</a>
