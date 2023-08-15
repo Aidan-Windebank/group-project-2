@@ -3,8 +3,7 @@
   <div class="row">
     <div class="col 6">
       <h2>Sale Categories</h2>
-        {{#each categories  }}
-          
+        {{#each categories as |category| }}
           <p>
             <a href="/categories/{{category.id}}">{{category.category_title}}</a>          
           </p>

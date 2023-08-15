@@ -87,12 +87,8 @@ router.get('/profile', withAuth, async (req, res) => {
 });
 
 router.get('/main_page', async (req, res) => {
-  console.log("main")
   try {
     const categoryTitle = await Category.findAll();
-
-    console.log(categoryTitle)
-//map over categories
 
     const categories = categoryTitle.map((category) => category.get({ plain: true }));
     
