@@ -94,7 +94,7 @@ router.get('/main_page', async (req, res) => {
     
     console.log(categories)
     res.render('main_page', {
-      categories: category_title,
+      categories,
       logged_in: true,
     });
   } catch (err) {
