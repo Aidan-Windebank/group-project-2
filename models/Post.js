@@ -25,6 +25,7 @@ Post.init(
     },
     user_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
         model: 'user',
         key: 'id',
@@ -33,6 +34,7 @@ Post.init(
 	  category_id:
 	  {
 		  type:DataTypes.INTEGER,
+      allowNull: false,
 		  references:{
 			  model:'category',
 			  key:'id',
