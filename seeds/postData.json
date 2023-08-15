@@ -1,6 +1,6 @@
 [
   {
-    "title": "1999 Chevy ",
+    "title": "1999 Chevy Tahoe",
     "description": "Great old truck"
   },
   {
@@ -10,5 +10,37 @@
   {
     "title": "14' Bassboat",
     "description": "Great small boat for fishing small lakes"
+  },
+  {
+    "title": "John Deere Lawn Mower",
+    "description":"Cuts grass with ease."
+  },
+  {
+    "title": "Trampoline",
+    "description": "Kids moved to college looking to sell our trampoline."
+  },
+  {
+    "title": "Air Fryer",
+    "description": "Works really well! Looking to get rid of because I don't use it often enough."
+  },
+  {
+    "title": "Gaming PC",
+    "description": "Built it myself. Sad to let this beauty go."
+  },
+  {
+    "title": "75 inch Sony Smart TV",
+    "description": "Great TV for watch sports and movies."
+  },
+  {
+    "title": "Patio Chairs",
+    "description": "These chairs are amazing for hanging around the fire or just relaxing."
+  },
+  {
+    "title": "Wheelbarrow",
+    "description": "Looking to get rid of our old wheelbarrow."
+  },
+  {
+    "title": "2009 Moped Scooter",
+    "description": "Want to sell this scooter"
   }
 ]
