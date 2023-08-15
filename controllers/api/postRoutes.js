@@ -9,12 +9,31 @@ const withAuth = require('../../utils/auth');
    res.status(200).json({ results });
  });
 
+ router.get('/:id', async (req, res) => {
+  try {
+    const postData = await Post.findByPk(req.params.id);
+    if (!postData) {
+      res.status(404).json({ message: 'No post with this id!' });
+      return;
+    }
+    res.status(200).json(postData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 
 router.post('/', withAuth, async (req, res) => {
   try {
     const newPost = await Post.create({
-      ...req.body,
+      // ...req.body,
+      title:req.body.title,
+      description:req.body.description,
+      // default cat. someone should 
+      category_id:1,
+
+
+
       user_id: req.session.user_id,
     });
 
