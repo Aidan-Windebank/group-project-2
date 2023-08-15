@@ -1,46 +1,49 @@
-<div class="row">
-  <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
-  </div>
-</div>
-
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Create a New Post:</h3>
-
-    <form class="form new-post-form">
-      <div class="form-group">
-        <label for="post-title">Post Title:</label>
-        <input class="form-input" type="text" id="post-title" name="post-title" />
-      </div>
-      <div class="form-group">
-        <label for="post-description">Description:</label>
-        <textarea class="form-input" id="post-description" name="post-description"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
-      </div>
-    </form>
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="mb-4">Welcome, {{name}}!</h2>
+    </div>
   </div>
 
-  
-  <div class="col-md-6 post-list">
-    <h3>Current Posts:</h3>
-
-    {{#if posts.length}}
-
-      {{#each posts as |post|}}
-      <div class="row mb-2">
-        <div class="col-md-8">
-          <h4><a href="/posts/{{post.id}}">{{post.title}}</a></h4>
-        </div>
-        <div class="col-md-4">
-          <button class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
-        </div>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <div class="card p-3">
+        <h3>Create a New Post:</h3>
+        <form class="new-post-form">
+          <div class="form-group">
+            <label for="post-title">Post Title:</label>
+            <input class="form-control" type="text" id="post-title" name="post-title" />
+          </div>
+          <div class="form-group">
+            <label for="post-description">Description:</label>
+            <textarea class="form-control" id="post-description" name="post-description"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Create</button>
+          </div>
+        </form>
       </div>
-      {{/each}}
-  
-    {{/if}}
+    </div>
+
+    <div class="col-md-6">
+      <div class="card p-3">
+        <h3>Current Posts:</h3>
+        {{#if posts.length}}
+          {{#each posts as |post|}}
+          <div class="row mb-2">
+            <div class="col-md-8">
+              <h4><a href="/posts/{{post.id}}" class="text-decoration-none">{{post.title}}</a></h4>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-sm btn-danger delete-button" data-id="{{post.id}}">DELETE</button>
+            </div>
+          </div>
+          {{/each}}
+        {{else}}
+          <p>No posts available.</p>
+        {{/if}}
+      </div>
+    </div>
   </div>
 </div>
 
