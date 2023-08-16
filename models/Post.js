@@ -31,24 +31,24 @@ Post.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
-	  category_id:
-	  {
-		  type:DataTypes.INTEGER,
-      allowNull: false,
-		  references:{
-			  model:'category',
-			  key:'id',
-		  }
+    // user_id: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   references: {
+    //     model: 'user',
+    //     key: 'id',
+    //   },
+    // },
+	  // category_id:
+	  // {
+		//   type:DataTypes.INTEGER,
+    //   allowNull: false,
+		//   references:{
+		// 	  model:'category',
+		// 	  key:'id',
+		//   }
 
-	  }
+	  // }
   },
   {
     sequelize,

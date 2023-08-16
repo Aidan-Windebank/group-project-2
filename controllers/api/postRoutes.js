@@ -5,7 +5,8 @@ const withAuth = require('../../utils/auth');
 
 
  router.get('/', async (req, res) => {
-   const results = await Post.findAll({include:{model:Category}}).catch((err) => { res.json(err) });
+  // const results = await Post.findAll({include:{model:Category}}).catch((err) => { res.json(err) });
+  const results = await Post.findAll();
    res.status(200).json({ results });
  });
 
