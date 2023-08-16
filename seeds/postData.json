@@ -2,66 +2,77 @@
   {
     "title": "1999 Chevy Tahoe",
     "description": "Great old truck",
+    "price": 5000,
     "category_id": 3,
     "user_id": 2
   },
   {
     "title": "Kids Downhill Skis",
     "description": "Selling my kids skis they out grew",
+    "price": 100,
     "category_id": 2,
     "user_id": 2
   }, 
   {
     "title": "14' Bassboat",
     "description": "Great small boat for fishing small lakes",
+    "price": 10000,
     "category_id": 2,
     "user_id": 1
   },
   {
     "title": "John Deere Lawn Mower",
     "description":"Cuts grass with ease.",
+    "price": 300,
     "category_id": 4,
     "user_id": 1 
   },
   {
     "title": "Trampoline",
     "description": "Kids moved to college looking to sell our trampoline.",
+    "price": 100,
     "category_id": 1,
     "user_id": 3 
   },
   {
     "title": "Air Fryer",
     "description": "Works really well.",
+    "price": 75,
     "category_id": 1,
     "user_id": 3
   },
   {
     "title": "Gaming PC",
     "description": "Built it myself. Sad to let this beauty go.",
+    "price": 2000,
     "category_id": 1,
     "user_id": 1
   },
   {
     "title": "75 inch Sony Smart TV",
     "description": "Great TV for watch sports and movies.",
+    "price": 150,
     "category_id": 1,
     "user_id": 2
   },
   {
     "title": "Patio Chairs",
     "description": "These chairs are amazing for hanging around the fire or just relaxing.",
+    "price": 100,
     "category_id": 4,
     "user_id": 2
   },
   {
     "title": "Wheelbarrow",
     "description": "Looking to get rid of our old wheelbarrow.",
+    "price": 55,
     "category_id": 4,
     "user_id": 3
   },
   {
     "title": "2009 Moped Scooter",
     "description": "Want to sell this scooter",
+    "price": 250,
     "category_id": 2,
     "user_id": 2
   }
