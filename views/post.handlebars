@@ -1,9 +1,13 @@
 <div class="text-center">
   <h2>{{title}}</h2>
+  {{!-- make hidden --}}
+  <h3 id="post-id">{{id}}</h3>
   <p>{{description}}</p>
   <p>${{price}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
   <p>
-    <button class="btn btn-primary">Reply to this post!</button>
+    <button id="reply-button" class="btn btn-primary">Reply to this post!</button>
   </p>
 </div>
+
+<script src="/js/reply.js"></script>
