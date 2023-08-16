@@ -22,6 +22,10 @@ Post.init(
     description: {
       type: DataTypes.STRING,
     },
+    price:  {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
