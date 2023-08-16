@@ -13,7 +13,7 @@
     <div class="col 6">
       <div>
         <h2>Posts:</h2>
-        {{#each posts as |post| }}
+        {{#each category.posts as |post| }}
             <h3>
               <a href="/posts/{{post.id}}">{{post.title}}</a>
             </h3>

@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     // Serialize data so the template can read it
     const posts = postData.map((post) => post.get({ plain: true }));
     // Pass serialized data and session flag into template
-    res.render('homepage', { 
+    res.render('login', { 
       posts, 
       logged_in: req.session.logged_in 
     });
@@ -76,9 +76,21 @@ router.get('/profile', withAuth, async (req, res) => {
       include: [{ model: Post}],
     });
 
+    const categoryTitle = await Category.findAll({
+      include: [
+        {
+          model: User,
+          model: Post,
+        }
+      ]
+    });
+
+    const categories = categoryTitle.map((category) => category.get({ plain: true }));
+
     const user = userData.get({ plain: true });
     res.render('profile', {
       ...user,
+      categories,
       logged_in: true,
     });
   } catch (err) {
@@ -88,13 +100,61 @@ router.get('/profile', withAuth, async (req, res) => {
 
 router.get('/main_page', async (req, res) => {
   try {
-    const categoryTitle = await Category.findAll();
+    const categoryTitle = await Category.findAll({
+      include: [
+        {
+          model: User,
+          model: Post,
+        }
+      ]
+    });
 
     const categories = categoryTitle.map((category) => category.get({ plain: true }));
     
     console.log(categories)
     res.render('main_page', {
       categories,
+      logged_in: true,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/categories/:id', withAuth, async (req, res) => {
+  try {
+
+    const categoryTitle = await Category.findAll({
+      include: [
+        {
+          model: User,
+          model: Post,
+        }
+      ]
+    });
+
+    const categories = categoryTitle.map((category) => category.get({ plain: true }));
+
+    const categoryData = await Category.findByPk(
+      req.params.id,
+      {
+      include: [
+        {
+          model: Post,
+          include: [
+            {
+              model: User,
+            }
+          ]
+        }
+      ]
+    });
+
+    const category = categoryData.get({ plain: true });
+    
+    res.render('category_page', {
+      categories,
+      category,
       logged_in: true,
     });
   } catch (err) {
