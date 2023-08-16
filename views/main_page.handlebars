@@ -1,28 +1,32 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col 6">
+    <div class="col-lg-6">
       <h2>Sale Categories</h2>
-        {{#each categories as |category| }}
-          <p>
-            <a href="/categories/{{category.id}}">{{category.category_title}}</a>          
-          </p>
-
-        {{/each}}    
+      {{#each categories as |category| }}
+        <p>
+          <a href="/categories/{{category.id}}">{{category.category_title}}</a>          
+        </p>
+      {{/each}}    
     </div>
-    <div class="col 6">
+    <div class="col-lg-6">
       <div>
         <h2>Posts:</h2>
-        {{#each posts as |post| }}
-            <h3>
-              <a href="/posts/{{post.id}}">{{post.title}}</a>
-            </h3>
-            <p>
-            {{post.description}}
-            </p>
-            <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
-        {{/each}}
+        <div class="post-cards">
+          {{#each posts as |post| }}
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="/posts/{{post.id}}">{{post.title}}</a>
+                </h3>
+                <p class="card-text">{{post.description}}</p>
+                <p class="card-info">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+              </div>
+            </div>
+          {{/each}}
+        </div>
       </div>    
     </div>
   </div>
 </div>
+
