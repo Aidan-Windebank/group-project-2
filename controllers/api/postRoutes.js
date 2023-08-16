@@ -30,7 +30,7 @@ router.post('/', withAuth, async (req, res) => {
       title:req.body.title,
       description:req.body.description,
       // default cat. someone should 
-      category_id:1,
+      category_id:req.body.category_id,
 
 
 
