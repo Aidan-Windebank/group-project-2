@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Post ,Category} = require('../../models');
+const { Post , User, Category} = require('../../models');
 const withAuth = require('../../utils/auth');
 
 
@@ -12,11 +12,18 @@ const withAuth = require('../../utils/auth');
 
  router.get('/:id', async (req, res) => {
   try {
-    const postData = await Post.findByPk(req.params.id);
+    const postData = await Post.findByPk(req.params.id, {
+      include: {
+        model: User,
+        attributes: ['email'],
+    },
+
+    });
     if (!postData) {
       res.status(404).json({ message: 'No post with this id!' });
       return;
     }
+    console.log(postData)
     res.status(200).json(postData);
   } catch (err) {
     res.status(500).json(err);
@@ -26,15 +33,15 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
+
+    console.log(req.body)
     const newPost = await Post.create({
       // ...req.body,
       title:req.body.title,
       description:req.body.description,
       // default cat. someone should 
       category_id:req.body.category_id,
-
-
-
+      price: req.body.price,
       user_id: req.session.user_id,
     });
 
@@ -60,15 +67,7 @@ router.put('/:id',withAuth,async(req,res)=>{
   } catch (err) {
     res.status(500).json(err);
   }
-
-
-
-}
-
-
-
-
-);
+});
 
 
 router.delete('/:id', withAuth, async (req, res) => {
