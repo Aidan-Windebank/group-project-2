@@ -12,132 +12,151 @@
     "description": "Selling my kids skis they out grew. All skis come with boots and poles.",
     "category_id": 2,
     "user_id": 2,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/kids-skis.jpg"
   }, 
   {
     "title": "14' Bassboat",
     "description": "Great small boat for fishing smaller lakes. Outboard winterized every year, and the boat stored in garage when not in use.",
     "category_id": 2,
     "user_id": 1,
-    "price": 10000
+    "price": 10000,
+    "imageURL": "/images/bassboat.jpg"
   },
   {
     "title": "John Deere Lawn Mower",
     "description":"Cuts grass with ease. An older model but never had any issues with it. Around 200 hrs of run time on it.",
     "category_id": 4,
     "user_id": 1,
-    "price": 300
+    "price": 300,
+    "imageURL": "/images/jd-lawn-tractor.jpg"
   },
   {
     "title": "Trampoline",
     "description": "Kids moved to college looking to sell our trampoline. Comes with kids safety net. Always stored inside over winter.",
     "category_id": 1,
     "user_id": 3,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/trampoline.jpg"
   },
   {
     "title": "Air Fryer",
     "description": "Works really well. Upgraded to a bigger model as my family grows.",
     "category_id": 1,
     "user_id": 3,
-    "price": 75
+    "price": 75,
+    "imageURL": "/images/air-fryer.jpg"
   },
   {
     "title": "Gaming PC",
     "description": "Built it myself. Sad to let this beauty go.",
     "category_id": 1,
     "user_id": 1,
-    "price": 2000
+    "price": 2000,
+    "imageURL": "/images/gaming-pc.jpg"
   },
   {
     "title": "75 inch Sony Smart TV",
     "description": "Great TV for watch sports and movies.",
     "category_id": 1,
     "user_id": 2,
-    "price": 150
+    "price": 150,
+    "imageURL": "/images/sony-tv.jpg"
   },
   {
     "title": "Patio Chairs",
     "description": "These chairs are amazing for hanging around the fire or just relaxing.",
     "category_id": 4,
     "user_id": 2,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/patio-chairs.jpg"
   },
   {
     "title": "Wheelbarrow",
     "description": "Looking to get rid of our old wheelbarrow.",
     "category_id": 4,
     "user_id": 3,
-    "price": 55
+    "price": 55,
+    "imageURL": "/images/wheelbarrow.jpg"
   },
   {
     "title": "2009 Moped Scooter",
     "description": "Want to sell this scooter. Bought it for college and am moving to a different state where I will not use it.",
     "category_id": 2,
     "user_id": 2,
-    "price": 250
+    "price": 250,
+    "imageURL": "/images/moped.jpg"
   },
   {
     "title": "2010 Honda Civic",
     "description": "Just got a new car and looking to sell my Civic. Has 200,000 miles but runs great with no issues. A great car for a new driver!",
     "category_id": 3,
     "user_id": 2,
-    "price": 2500
+    "price": 2500,
+    "imageURL": ""
   },
   {
     "title": "1987 Porche 944 Turbo S",
     "description": "A classic sports car that anyone can afford. Only 50,000 original miles. Everything original. Car runs ok but could use a tune up and new tires. Interior leather starting to show its age.",
     "category_id": 3,
     "user_id": 1,
-    "price": 7500
+    "price": 7500,
+    "imageURL": ""
   },
   {
     "title": "Pickle Ball Set",
     "description": "Looking to sell my pickleball set. I tore my rotator cuff diving for a long ball and will no longer be able to play",
     "category_id": 2,
     "user_id": 3,
-    "price": 100
+    "price": 100,
+    "imageURL": ""
   },
   {
     "title": "Bacce Ball Set",
     "description": "A classic yard game, just got a new set and want to see this one go to a good new home.",
     "category_id": 4,
     "user_id": 3,
-    "price": 25
+    "price": 25,
+    "imageURL": ""
   },
   {
     "title": "Fishing Equipment",
     "description": "I am selling my whole fishing set as I am moving to a new town with no lakes. 3 bait casting poles, 2 spinning reels and all the necessary tackle and two nets",
     "category_id": 2,
     "user_id": 1,
-    "price": 200
+    "price": 200,
+    "imageURL": ""
   },
   {
     "title": "Kids Scooters",
     "description": "Cleaning out the garage and getting rid of some of my kids old stuff they dont use anymore.",
     "category_id": 2,
     "user_id": 1,
-    "price": 150
+    "price": 150,
+    "imageURL": ""
   },
   {
     "title": "Set of New Tires",
     "description": "I have a set of 4 new snow tires that I never used. Bought for my car but they didn't work and now I'm stuck with them.",
     "category_id": 3,
     "user_id": 3,
-    "price": 750
+    "price": 750,
+    "imageURL": ""
   },
   {
     "title": "King Bedroom Set",
     "description": "Downsizing and selling our king sized bedroom set. Comes with headboard and bed frame as well as two matching end tables.",
     "category_id":1 ,
     "user_id": 1,
-    "price": 1000
+    "price": 1000,
+    "imageURL": ""
   },
   {
     "title": "Sectional Couch",
     "description": "Moving to an apartment and geting rid of furniture that will no longer fit in my new place. Great sectional couche from IKEA, a little wear and tear but still in great condition.",
     "category_id": 1,
     "user_id": 2,
-    "price": 500
+    "price": 500,
+    "imageURL": ""
   }
 ]
