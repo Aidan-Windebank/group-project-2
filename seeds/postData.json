@@ -12,70 +12,80 @@
     "description": "Selling my kids skis they out grew. All skis come with boots and poles.",
     "category_id": 2,
     "user_id": 2,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/kids-skis.jpg"
   }, 
   {
     "title": "14' Bassboat",
     "description": "Great small boat for fishing smaller lakes. Outboard winterized every year, and the boat stored in garage when not in use.",
     "category_id": 2,
     "user_id": 1,
-    "price": 10000
+    "price": 10000,
+    "imageURL": "/images/bassboat.jpg"
   },
   {
     "title": "John Deere Lawn Mower",
     "description":"Cuts grass with ease. An older model but never had any issues with it. Around 200 hrs of run time on it.",
     "category_id": 4,
     "user_id": 1,
-    "price": 300
+    "price": 300,
+    "imageURL": "/images/jd-lawn-tractor.jpg"
   },
   {
     "title": "Trampoline",
     "description": "Kids moved to college looking to sell our trampoline. Comes with kids safety net. Always stored inside over winter.",
     "category_id": 1,
     "user_id": 3,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/trampoline.jpg"
   },
   {
     "title": "Air Fryer",
     "description": "Works really well. Upgraded to a bigger model as my family grows.",
     "category_id": 1,
     "user_id": 3,
-    "price": 75
+    "price": 75,
+    "imageURL": "/images/air-fryer.jpg"
   },
   {
     "title": "Gaming PC",
     "description": "Built it myself. Sad to let this beauty go.",
     "category_id": 1,
     "user_id": 1,
-    "price": 2000
+    "price": 2000,
+    "imageURL": "/images/gaming-pc.jpg"
   },
   {
     "title": "75 inch Sony Smart TV",
     "description": "Great TV for watch sports and movies.",
     "category_id": 1,
     "user_id": 2,
-    "price": 150
+    "price": 150,
+    "imageURL": "/images/sony-tv.jpg"
   },
   {
     "title": "Patio Chairs",
     "description": "These chairs are amazing for hanging around the fire or just relaxing.",
     "category_id": 4,
     "user_id": 2,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/patio-chairs.jpg"
   },
   {
     "title": "Wheelbarrow",
     "description": "Looking to get rid of our old wheelbarrow.",
     "category_id": 4,
     "user_id": 3,
-    "price": 55
+    "price": 55,
+    "imageURL": "/images/wheelbarrow.jpg"
   },
   {
     "title": "2009 Moped Scooter",
     "description": "Want to sell this scooter. Bought it for college and am moving to a different state where I will not use it.",
     "category_id": 2,
     "user_id": 2,
-    "price": 250
+    "price": 250,
+    "imageURL": "/images/moped.jpg"
   },
   {
     "title": "2010 Honda Civic",
