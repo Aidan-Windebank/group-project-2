@@ -82,62 +82,71 @@
     "description": "Just got a new car and looking to sell my Civic. Has 200,000 miles but runs great with no issues. A great car for a new driver!",
     "category_id": 3,
     "user_id": 2,
-    "price": 2500
+    "price": 2500,
+    "imageURL": "/images/civic.jpg"
   },
   {
     "title": "1987 Porche 944 Turbo S",
     "description": "A classic sports car that anyone can afford. Only 50,000 original miles. Everything original. Car runs ok but could use a tune up and new tires. Interior leather starting to show its age.",
     "category_id": 3,
     "user_id": 1,
-    "price": 7500
+    "price": 7500,
+    "imageURL": "/images/porche.jpg"
   },
   {
     "title": "Pickle Ball Set",
     "description": "Looking to sell my pickleball set. I tore my rotator cuff diving for a long ball and will no longer be able to play",
     "category_id": 2,
     "user_id": 3,
-    "price": 100
+    "price": 100,
+    "imageURL": "/images/pickleball.jpg"
   },
   {
     "title": "Bacce Ball Set",
     "description": "A classic yard game, just got a new set and want to see this one go to a good new home.",
     "category_id": 4,
     "user_id": 3,
-    "price": 25
+    "price": 25,
+    "imageURL": "/images/bocce.jpg"
   },
   {
     "title": "Fishing Equipment",
     "description": "I am selling my whole fishing set as I am moving to a new town with no lakes. 3 bait casting poles, 2 spinning reels and all the necessary tackle and two nets",
     "category_id": 2,
     "user_id": 1,
-    "price": 200
+    "price": 200,
+    "imageURL": "/images/fishing.jpg"
   },
   {
     "title": "Kids Scooters",
     "description": "Cleaning out the garage and getting rid of some of my kids old stuff they dont use anymore.",
     "category_id": 2,
     "user_id": 1,
-    "price": 150
+    "price": 150,
+    "imageURL": "/images/scooters.jpg"
   },
   {
     "title": "Set of New Tires",
     "description": "I have a set of 4 new snow tires that I never used. Bought for my car but they didn't work and now I'm stuck with them.",
     "category_id": 3,
     "user_id": 3,
-    "price": 750
+    "price": 750,
+    "imageURL": "/images/tires.jpg"
   },
   {
     "title": "King Bedroom Set",
     "description": "Downsizing and selling our king sized bedroom set. Comes with headboard and bed frame as well as two matching end tables.",
     "category_id":1 ,
     "user_id": 1,
-    "price": 1000
+    "price": 1000,
+    "imageURL": "/images/bedroom-set.jpg"
   },
   {
     "title": "Sectional Couch",
     "description": "Moving to an apartment and geting rid of furniture that will no longer fit in my new place. Great sectional couche from IKEA, a little wear and tear but still in great condition.",
     "category_id": 1,
     "user_id": 2,
-    "price": 500
+    "price": 500,
+    "imageURL": "/images/couch.jpg"
   }
 ]
