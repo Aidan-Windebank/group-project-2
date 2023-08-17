@@ -90,7 +90,11 @@
 }
 
 #imageURL {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
 }
 
+#big-imageURL {
+  width: 500px;
+  height: 400px;
+}
