@@ -3,77 +3,77 @@
     "title": "1999 Chevy Tahoe",
     "description": "Great old truck",
     "categoryId": 3,
-    "userId": 2
-    "price": 5000,
+    "userId": 2,
+    "price": 5000
   },
   {
     "title": "Kids Downhill Skis",
     "description": "Selling my kids skis they out grew",
     "categoryId": 2,
-    "userId": 2
-    "price": 100,
+    "userId": 2,
+    "price": 100
   }, 
   {
     "title": "14' Bassboat",
     "description": "Great small boat for fishing small lakes",
     "categoryId": 2,
-    "userId": 1
-    "price": 10000,
+    "userId": 1,
+    "price": 10000
   },
   {
     "title": "John Deere Lawn Mower",
     "description":"Cuts grass with ease.",
     "categoryId": 4,
-    "userId": 1 
-    "price": 300,
+    "userId": 1,
+    "price": 300
   },
   {
     "title": "Trampoline",
     "description": "Kids moved to college looking to sell our trampoline.",
     "categoryId": 1,
-    "userId": 3 
-    "price": 100,
+    "userId": 3,
+    "price": 100
   },
   {
     "title": "Air Fryer",
     "description": "Works really well.",
     "categoryId": 1,
-    "userId": 3
-    "price": 75,
+    "userId": 3,
+    "price": 75
   },
   {
     "title": "Gaming PC",
     "description": "Built it myself. Sad to let this beauty go.",
     "categoryId": 1,
-    "userId": 1
-    "price": 2000,
+    "userId": 1,
+    "price": 2000
   },
   {
     "title": "75 inch Sony Smart TV",
     "description": "Great TV for watch sports and movies.",
     "categoryId": 1,
-    "userId": 2
-    "price": 150,
+    "userId": 2,
+    "price": 150
   },
   {
     "title": "Patio Chairs",
     "description": "These chairs are amazing for hanging around the fire or just relaxing.",
     "categoryId": 4,
-    "userId": 2
-    "price": 100,
+    "userId": 2,
+    "price": 100
   },
   {
     "title": "Wheelbarrow",
     "description": "Looking to get rid of our old wheelbarrow.",
     "categoryId": 4,
-    "userId": 3
-    "price": 55,
+    "userId": 3,
+    "price": 55
   },
   {
     "title": "2009 Moped Scooter",
     "description": "Want to sell this scooter",
     "categoryId": 2,
-    "userId": 2
-    "price": 250,
+    "userId": 2,
+    "price": 250
   }
 ]
