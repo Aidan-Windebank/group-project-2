@@ -5,7 +5,7 @@
     "category_id": 3,
     "user_id": 2,
     "price": 5000,
-    "imageURL": "/images/chevy-tahoe.jpg"
+    "image_URL": "/images/chevy-tahoe.jpg"
   },
   {
     "title": "Kids Downhill Skis",
@@ -13,7 +13,7 @@
     "category_id": 2,
     "user_id": 2,
     "price": 100,
-    "imageURL": "/images/kids-skis.jpg"
+    "image_URL": "/images/kids-skis.jpg"
   }, 
   {
     "title": "14' Bassboat",
@@ -21,7 +21,7 @@
     "category_id": 2,
     "user_id": 1,
     "price": 10000,
-    "imageURL": "/images/bassboat.jpg"
+    "image_URL": "/images/bassboat.jpg"
   },
   {
     "title": "John Deere Lawn Mower",
@@ -29,7 +29,7 @@
     "category_id": 4,
     "user_id": 1,
     "price": 300,
-    "imageURL": "/images/jd-lawn-tractor.jpg"
+    "image_URL": "/images/jd-lawn-tractor.jpg"
   },
   {
     "title": "Trampoline",
@@ -37,7 +37,7 @@
     "category_id": 1,
     "user_id": 3,
     "price": 100,
-    "imageURL": "/images/trampoline.jpg"
+    "image_URL": "/images/trampoline.jpg"
   },
   {
     "title": "Air Fryer",
@@ -45,7 +45,7 @@
     "category_id": 1,
     "user_id": 3,
     "price": 75,
-    "imageURL": "/images/air-fryer.jpg"
+    "image_URL": "/images/air-fryer.jpg"
   },
   {
     "title": "Gaming PC",
@@ -53,7 +53,7 @@
     "category_id": 1,
     "user_id": 1,
     "price": 2000,
-    "imageURL": "/images/gaming-pc.jpg"
+    "image_URL": "/images/gaming-pc.jpg"
   },
   {
     "title": "75 inch Sony Smart TV",
@@ -61,7 +61,7 @@
     "category_id": 1,
     "user_id": 2,
     "price": 150,
-    "imageURL": "/images/sony-tv.jpg"
+    "image_URL": "/images/sony-tv.jpg"
   },
   {
     "title": "Patio Chairs",
@@ -69,7 +69,7 @@
     "category_id": 4,
     "user_id": 2,
     "price": 100,
-    "imageURL": "/images/patio-chairs.jpg"
+    "image_URL": "/images/patio-chairs.jpg"
   },
   {
     "title": "Wheelbarrow",
@@ -77,7 +77,7 @@
     "category_id": 4,
     "user_id": 3,
     "price": 55,
-    "imageURL": "/images/wheelbarrow.jpg"
+    "image_URL": "/images/wheelbarrow.jpg"
   },
   {
     "title": "2009 Moped Scooter",
@@ -85,7 +85,7 @@
     "category_id": 2,
     "user_id": 2,
     "price": 250,
-    "imageURL": "/images/moped.jpg"
+    "image_URL": "/images/moped.jpg"
   },
   {
     "title": "2010 Honda Civic",
@@ -93,7 +93,7 @@
     "category_id": 3,
     "user_id": 2,
     "price": 2500,
-    "imageURL": "/images/civic.jpg"
+    "image_URL": "/images/civic.jpg"
   },
   {
     "title": "1987 Porche 944 Turbo S",
@@ -101,7 +101,7 @@
     "category_id": 3,
     "user_id": 1,
     "price": 7500,
-    "imageURL": "/images/porche.jpg"
+    "image_URL": "/images/porche.jpg"
   },
   {
     "title": "Pickle Ball Set",
@@ -109,7 +109,7 @@
     "category_id": 2,
     "user_id": 3,
     "price": 100,
-    "imageURL": "/images/pickleball.jpg"
+    "image_URL": "/images/pickleball.jpg"
   },
   {
     "title": "Bacce Ball Set",
@@ -117,7 +117,7 @@
     "category_id": 4,
     "user_id": 3,
     "price": 25,
-    "imageURL": "/images/bocce.jpg"
+    "image_URL": "/images/bocce.jpg"
   },
   {
     "title": "Fishing Equipment",
@@ -125,7 +125,7 @@
     "category_id": 2,
     "user_id": 1,
     "price": 200,
-    "imageURL": "/images/fishing.jpg"
+    "image_URL": "/images/fishing.jpg"
   },
   {
     "title": "Kids Scooters",
@@ -133,7 +133,7 @@
     "category_id": 2,
     "user_id": 1,
     "price": 150,
-    "imageURL": "/images/scooters.jpg"
+    "image_URL": "/images/scooters.jpg"
   },
   {
     "title": "Set of New Tires",
@@ -141,7 +141,7 @@
     "category_id": 3,
     "user_id": 3,
     "price": 750,
-    "imageURL": "/images/tires.jpg"
+    "image_URL": "/images/tires.jpg"
   },
   {
     "title": "King Bedroom Set",
@@ -149,7 +149,7 @@
     "category_id":1 ,
     "user_id": 1,
     "price": 1000,
-    "imageURL": "/images/bedroom-set.jpg"
+    "image_URL": "/images/bedroom-set.jpg"
   },
   {
     "title": "Sectional Couch",
@@ -157,6 +157,6 @@
     "category_id": 1,
     "user_id": 2,
     "price": 500,
-    "imageURL": "/images/couch.jpg"
+    "image_URL": "/images/couch.jpg"
   }
 ]
