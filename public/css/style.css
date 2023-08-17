@@ -28,8 +28,8 @@
 }
 
 .no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
 
 .dollar-amount {
@@ -76,11 +76,17 @@
   width: 125px;
 }
 
+#profileButton:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
 #mainPageButton {
   width: 125px;
 }
-
-#loginButton  {
-  border: 1px;
+#mainPageButton:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
+
 
