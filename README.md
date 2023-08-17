@@ -9,6 +9,13 @@ This web application is designed to act as an old style newspaper classifieds ad
  - The user also has a proflie page where they can manage their own listings. 
  - On the user's profile page they can make new posts, and see all their existing posts, with the ability to delete a post once it is sold. 
 
+## Creators
+- Sana Mohammed
+- Ben Trebilcock
+- Tristan Carl
+- Aidan Windebank
+
+
 ## Instructions for the User
  - Please use app and comment on any errors.
 
