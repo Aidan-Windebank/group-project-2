@@ -93,7 +93,7 @@
     "category_id": 3,
     "user_id": 2,
     "price": 2500,
-    "imageURL": ""
+    "imageURL": "/images/civic.jpg"
   },
   {
     "title": "1987 Porche 944 Turbo S",
@@ -101,7 +101,7 @@
     "category_id": 3,
     "user_id": 1,
     "price": 7500,
-    "imageURL": ""
+    "imageURL": "/images/porche.jpg"
   },
   {
     "title": "Pickle Ball Set",
@@ -109,7 +109,7 @@
     "category_id": 2,
     "user_id": 3,
     "price": 100,
-    "imageURL": ""
+    "imageURL": "/images/pickleball.jpg"
   },
   {
     "title": "Bacce Ball Set",
@@ -117,7 +117,7 @@
     "category_id": 4,
     "user_id": 3,
     "price": 25,
-    "imageURL": ""
+    "imageURL": "/images/bocce.jpg"
   },
   {
     "title": "Fishing Equipment",
@@ -125,7 +125,7 @@
     "category_id": 2,
     "user_id": 1,
     "price": 200,
-    "imageURL": ""
+    "imageURL": "/images/fishing.jpg"
   },
   {
     "title": "Kids Scooters",
@@ -133,7 +133,7 @@
     "category_id": 2,
     "user_id": 1,
     "price": 150,
-    "imageURL": ""
+    "imageURL": "/images/scooters.jpg"
   },
   {
     "title": "Set of New Tires",
@@ -141,7 +141,7 @@
     "category_id": 3,
     "user_id": 3,
     "price": 750,
-    "imageURL": ""
+    "imageURL": "/images/tires.jpg"
   },
   {
     "title": "King Bedroom Set",
@@ -149,7 +149,7 @@
     "category_id":1 ,
     "user_id": 1,
     "price": 1000,
-    "imageURL": ""
+    "imageURL": "/images/bedroom-set.jpg"
   },
   {
     "title": "Sectional Couch",
@@ -157,6 +157,6 @@
     "category_id": 1,
     "user_id": 2,
     "price": 500,
-    "imageURL": ""
+    "imageURL": "/images/couch.jpg"
   }
 ]
