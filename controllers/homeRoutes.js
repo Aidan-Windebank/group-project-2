@@ -91,7 +91,6 @@ router.get('/main_page', withAuth, async (req, res) => {
 
     const categories = categoryTitle.map((category) => category.get({ plain: true }));
     
-    console.log(categories)
     res.render('main_page', {
       categories,
       logged_in: true,

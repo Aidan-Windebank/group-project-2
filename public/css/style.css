@@ -120,7 +120,7 @@
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 775px) {
   #header-font {
     font-family:'Courier New', Courier, monospace;
     font-weight: 700;
