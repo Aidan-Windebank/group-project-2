@@ -1,23 +1,30 @@
 
 
 const replyManager = async (event) => {
-
-    const id = document.querySelector('#post-id').value.trim();;
     event.preventDefault();
+    const id = document.querySelector('#post-parent').dataset.id;
+    // console.log(id);
     // Send a POST request to the API endpoint
     // get id of
-    const response = await fetch(`/api/posts/:${id}`, {
+    // const response = await fetch(`/api/posts/${id}`, {
+    //     method: 'GET',
+    //     headers: { 'Content-Type': 'application/json' },
+    // })
+    fetch(`/api/posts/${id}`, {
         method: 'GET',
-        // body: JSON.stringify({ email, password }),
         headers: { 'Content-Type': 'application/json' },
-    });
+    }).then(response => {
+        return response.json()
+    }).then(data => {
+        console.log(data.user.email)
+    })
+    // if (response.ok) {
+    //     // alert(`The posters email is: ${response.body.user.email}`)
+    //     console.log(response.json())
 
-    if (response.ok) {
-        alert(`The posters email is: ${response.body.user.email}`)
-
-    } else {
-        alert(response.statusText);
-    }
+    // } else {
+    //     alert(response.statusText);
+    // }
 }
 
 
