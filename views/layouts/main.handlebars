@@ -19,11 +19,15 @@
       <nav>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/main_page">Main Page</a>
-        <a href="/profile">My Profile</a> 
-        <button class="no-button" id="logout">logout</button>
+      <form action="/main_page">
+          <input type="submit" value="Go Main Page" id="mainPageButton"/>
+      </form>
+      <form action="/profile">
+          <input type="submit" value="Go Profile" id="profileButton"/>
+      </form> 
+        <button class="no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" id="loginButton">login</a>
         {{/if}}
       </nav>
   </header>
