@@ -5,34 +5,6 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
-
-
-//image stuff
-// const fileUpload = require('express-fileupload');
-// app.use(fileUpload());
-
-// app.post('/upload', async (req, res) => {
-//   console.log(req.files)
-//   const {name, data} = req.files.pic;
-//   if(name && data) {
-//     await knex.insert({name: name, img: data}).into('img'); // 
-//     res.sendStatus(200);
-//   } else {
-//     res.sendStatus(400);
-//   }
-  
-// })
-
-// app.get('img/:id', async (req, res) => {
-//   const id = req.params.id;
-//   const img = await knex('img').where({id: id}).first();
-//   if (img) {
-//     res.end(img.img);
-//   } else {
-//     res.end('no img with that id')
-//   }
-// })
-
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
