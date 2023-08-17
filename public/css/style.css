@@ -18,12 +18,13 @@
 
 .no-button {
   background: none;
-  border: none;
+  border: 1 px;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: black;
   text-decoration: none;
   font-size: 100%;
+  width: 125px;
 }
 
 .no-button:hover {
@@ -69,3 +70,17 @@
 #category_id {
   width: 250px;
 }
+
+
+#profileButton  {
+  width: 125px;
+}
+
+#mainPageButton {
+  width: 125px;
+}
+
+#loginButton  {
+  border: 1px;
+}
+
