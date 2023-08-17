@@ -26,4 +26,4 @@ This web application is designed to act as an old style newspaper classifieds ad
 [Click Here to View GitHub Repo](https://github.com/Aidan-Windebank/group-project-2)
 
 ## Link to Deployed Web Application
-[Click Here to Visit Web Application]()
+[Click Here to Visit Web Application](https://project2-hometown-classifieds-ab97edeca766.herokuapp.com/)

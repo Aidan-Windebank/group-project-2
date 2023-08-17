@@ -6,10 +6,10 @@ const newFormHandler = async (event) => {
   const price = document.querySelector('#post-price').value.trim();
   const category_id = document.querySelector('#category_id').value;
   
-  if (title && description && price && category_id) {
+  if (title && description && price && category_id){
     const response = await fetch(`/api/posts`, {
       method: 'POST',
-      body: JSON.stringify({ title, description, price, category_id }),
+      body: JSON.stringify({title, description, price, category_id}),
       headers: {
         'Content-Type': 'application/json',
       },
