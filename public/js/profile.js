@@ -3,12 +3,13 @@ const newFormHandler = async (event) => {
 
   const title = document.querySelector('#post-title').value.trim();
   const description = document.querySelector('#post-description').value.trim();
-  const category_id = document.querySelector('#category_id').value
-
-  if (title && description && category_id) {
+  const price = document.querySelector('#post-price').value.trim();
+  const category_id = document.querySelector('#category_id').value;
+  
+  if (title && description && price && category_id) {
     const response = await fetch(`/api/posts`, {
       method: 'POST',
-      body: JSON.stringify({ title, description, category_id }),
+      body: JSON.stringify({ title, description, price, category_id }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -43,5 +44,5 @@ document
   .addEventListener('submit', newFormHandler);
 
 document
-  .querySelector('.post-list')
+  .querySelector('#delete-button')
   .addEventListener('click', delButtonHandler);
