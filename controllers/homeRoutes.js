@@ -78,7 +78,7 @@ router.get('/profile', withAuth, async (req, res) => {
   }
 });
 
-router.get('/main_page', async (req, res) => {
+router.get('/main_page', withAuth, async (req, res) => {
   try {
     const categoryTitle = await Category.findAll({
       include: [
