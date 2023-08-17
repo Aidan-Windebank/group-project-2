@@ -1,3 +1,21 @@
+.btn-category {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #007bff; /* Add a 2px solid border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-category:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
 .no-button {
   background: none;
   border: 1 px;
@@ -49,9 +67,10 @@
   color: #999;
 }
 
-#category_id  {
+#category_id {
   width: 250px;
 }
+
 
 #profileButton  {
   width: 125px;
@@ -64,3 +83,4 @@
 #loginButton  {
   border: 1px;
 }
+
