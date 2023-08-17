@@ -14,18 +14,22 @@
       <div>
         <h2>Posts:</h2>
         <div class="post-cards">
-          {{#each posts as |post| }}
-            <div class="card animate__animated animate__fadeIn">
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="/posts/{{post.id}}">{{post.title}}</a>
-                </h3>
-                <p class="card-text">{{post.description}}</p>
-                <p class="card-price">${{post.price}}</p>
-                <p class="card-info">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+          {{#if posts.length}}
+            {{#each posts as |post| }}
+              <div class="card animate__animated animate__fadeIn">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="/posts/{{post.id}}">{{post.title}}</a>
+                  </h3>
+                  <p class="card-text">{{post.description}}</p>
+                  <p class="card-price">${{post.price}}</p>
+                  <p class="card-info">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+                </div>
               </div>
-            </div>
-          {{/each}}
+            {{/each}}
+          {{else}}
+          <p>Select a Category.</p>
+          {{/if}}
         </div>
       </div>    
     </div>

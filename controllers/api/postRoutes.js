@@ -2,10 +2,7 @@ const router = require('express').Router();
 const { Post , User, Category} = require('../../models');
 const withAuth = require('../../utils/auth');
 
-
-
  router.get('/', async (req, res) => {
-  // const results = await Post.findAll({include:{model:Category}}).catch((err) => { res.json(err) });
   const results = await Post.findAll();
    res.status(200).json({ results });
  });
@@ -30,16 +27,13 @@ const withAuth = require('../../utils/auth');
   }
 });
 
-
 router.post('/', withAuth, async (req, res) => {
   try {
 
     console.log(req.body)
     const newPost = await Post.create({
-      // ...req.body,
       title:req.body.title,
       description:req.body.description,
-      // default cat. someone should 
       category_id:req.body.category_id,
       price: req.body.price,
       user_id: req.session.user_id,

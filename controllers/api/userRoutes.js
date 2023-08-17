@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { User,Post,Category } = require('../../models');
 
 router.get('/',async (req,res) => {
-  // const results = await User.findAll({include:{model:Post}}).catch((err) => { res.json(err) });
   const results = await User.findAll(req.params.id, {
 
     include: [{ model: Category, through: Post}]

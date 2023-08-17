@@ -20,10 +20,13 @@ This web application is designed to act as an old style newspaper classifieds ad
  - Please use app and comment on any errors.
 
 ## Screen Shot of Working Application
-<img src="." alt="screenshot of app being run"/>
+- Main List Page
+<img src="./public/images/list-page.png" alt="screenshot of app being run"/>
+- User's Profile Page
+<img src="./public/images/profile-page.png" alt="screenshot of app being run"/>
 
 ## Link to GitHub Repository
 [Click Here to View GitHub Repo](https://github.com/Aidan-Windebank/group-project-2)
 
 ## Link to Deployed Web Application
-[Click Here to Visit Web Application]()
+[Click Here to Visit Web Application](https://project2-hometown-classifieds-ab97edeca766.herokuapp.com/)
