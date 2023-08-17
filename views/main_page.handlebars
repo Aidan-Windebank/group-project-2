@@ -2,11 +2,13 @@
   <div class="row">
     <div class="col-lg-3">
       <h2>Sale Categories</h2>
-      {{#each categories as |category| }}
-        <p>
-          <a href="/categories/{{category.id}}">{{category.category_title}}</a>          
-        </p>
-      {{/each}}    
+      <div class="category-buttons">
+        {{#each categories as |category| }}
+          <button class="btn btn-category" onclick="location.href='/categories/{{category.id}}'">
+            {{category.category_title}}
+          </button>
+        {{/each}}    
+      </div>
     </div>
     <div class="col-lg-9">
       <div>
@@ -19,6 +21,7 @@
                   <a href="/posts/{{post.id}}">{{post.title}}</a>
                 </h3>
                 <p class="card-text">{{post.description}}</p>
+                <p class="card-price">${{post.price}}</p>
                 <p class="card-info">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
               </div>
             </div>
