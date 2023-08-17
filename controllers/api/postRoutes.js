@@ -20,7 +20,6 @@ const withAuth = require('../../utils/auth');
       res.status(404).json({ message: 'No post with this id!' });
       return;
     }
-    console.log(postData)
     res.status(200).json(postData);
   } catch (err) {
     res.status(500).json(err);
@@ -29,13 +28,11 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
-
-    console.log(req.body)
     const newPost = await Post.create({
       title:req.body.title,
       description:req.body.description,
-      category_id:req.body.category_id,
       price: req.body.price,
+      category_id:req.body.category_id,
       user_id: req.session.user_id,
     });
 
