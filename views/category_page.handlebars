@@ -20,6 +20,7 @@
                 <h3 class="card-title">
                   <a href="/posts/{{post.id}}">{{post.title}}</a>
                 </h3>
+                <img src="{{post.imageURL}}" alt="{{post.title}} image" />
                 <p class="card-text">{{post.description}}</p>
                 <p class="card-price">${{post.price}}</p>
                 <p class="card-info">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
