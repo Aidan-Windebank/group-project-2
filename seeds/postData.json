@@ -4,7 +4,8 @@
     "description": "Great reliable vehicle. Has around 175,000 miles on it and recently was serviced and has newer tires. Feel free to make an offer!",
     "category_id": 3,
     "user_id": 2,
-    "price": 5000
+    "price": 5000,
+    "imageURL": "/images/chevy-tahoe.jpg"
   },
   {
     "title": "Kids Downhill Skis",

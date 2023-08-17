@@ -15,10 +15,9 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    // imageURL: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    // },
+    imageURL: {
+      type: DataTypes.STRING,
+    },
     description: {
       type: DataTypes.STRING,
     },
