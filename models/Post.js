@@ -18,6 +18,7 @@ Post.init(
     image_URL: {
       type: DataTypes.STRING,
       allowNull: true,
+      field: 'image_u_r_l'
     },
     description: {
       type: DataTypes.STRING,
@@ -54,7 +55,7 @@ Post.init(
     sequelize,
     timestamps: false,
     freezeTableName: true,
-    // underscored: true,
+    underscored: true,
     modelName: 'post',
   }
 );
